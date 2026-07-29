@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>꽁꽁꽁 망고빙수 | 고마워토토</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green:#7a9e3f; --green-d:#5c7c2a; --mango:#f5a623; --mango-d:#e8890b;
+    --cream:#fdf8ef; --ink:#3a3226; --sub:#7c7266; --line:#ece3d3;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Noto Sans KR',sans-serif;color:var(--ink);background:var(--cream);line-height:1.75;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:620px;margin:0 auto;background:var(--cream);overflow:hidden}
+  .serif{font-family:'Gowun Batang',serif}
+
+  /* HERO */
+  .hero{position:relative;padding:64px 28px 56px;text-align:center;
+    background:linear-gradient(160deg,#8fb14e 0%,#b6cf6e 34%,#f7c66b 78%,#f5a623 100%);
+    color:#fff}
+  .hero .badge{display:inline-block;font-size:12px;letter-spacing:3px;font-weight:500;
+    background:rgba(255,255,255,.22);padding:7px 16px;border-radius:20px;margin-bottom:22px}
+  .hero .emoji{font-size:58px;line-height:1;margin-bottom:14px;filter:drop-shadow(0 4px 10px rgba(0,0,0,.18))}
+  .hero h1{font-size:34px;font-weight:700;letter-spacing:-.5px;margin-bottom:14px;text-shadow:0 2px 12px rgba(90,60,10,.25)}
+  .hero .lead{font-size:16px;font-weight:300;max-width:420px;margin:0 auto;opacity:.97}
+  .hero .lead b{font-weight:700}
+
+  /* STORY */
+  .sec{padding:52px 28px}
+  .kicker{display:block;text-align:center;color:var(--mango-d);font-weight:700;font-size:13px;letter-spacing:2px;margin-bottom:12px}
+  .story h2{font-family:'Gowun Batang',serif;text-align:center;font-size:25px;font-weight:700;line-height:1.5;margin-bottom:28px}
+  .story p{font-size:16px;color:#4a4235;margin-bottom:18px}
+  .quote{font-family:'Gowun Batang',serif;font-size:19px;color:var(--green-d);text-align:center;
+    padding:18px 0;font-weight:700}
+  .heart{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px 24px;text-align:center;
+    box-shadow:0 8px 30px rgba(120,100,50,.06);margin-top:8px}
+  .heart p{font-family:'Gowun Batang',serif;font-size:18px;color:var(--ink);margin:0;line-height:1.7}
+  .heart b{color:var(--mango-d)}
+
+  /* ACTIVITY */
+  .acts{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .acts h3{text-align:center;font-size:21px;font-weight:700;margin-bottom:26px}
+  .step{display:flex;gap:16px;align-items:flex-start;padding:15px 0;border-bottom:1px dashed var(--line)}
+  .step:last-child{border-bottom:0}
+  .step .n{flex:0 0 34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--green),var(--mango));
+    color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:14px}
+  .step .t{flex:1}
+  .step .t b{display:block;font-size:16px;font-weight:700;margin-bottom:2px}
+  .step .t span{font-size:14px;color:var(--sub)}
+
+  /* COOK */
+  .cook .tags{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:6px}
+  .cook .tag{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;text-align:center;font-size:14px;flex:1 1 40%;min-width:150px}
+  .cook .tag b{display:block;font-size:15px;color:var(--green-d);margin-bottom:3px}
+
+  /* ALLERGY */
+  .allergy{background:#fff6e8;border:1px solid #f4d79a;border-radius:16px;padding:22px 22px;margin:0 28px}
+  .allergy b{color:var(--mango-d)}
+  .allergy .h{font-weight:700;font-size:15px;margin-bottom:8px}
+  .allergy p{font-size:14px;color:#6b5e45;line-height:1.7}
+
+  /* CTA */
+  .cta{padding:56px 28px 40px;text-align:center;
+    background:linear-gradient(160deg,#f7c66b,#f5a623)}
+  .cta h3{color:#fff;font-size:23px;font-weight:700;margin-bottom:8px;text-shadow:0 2px 10px rgba(90,60,10,.2)}
+  .cta p{color:#fff;opacity:.95;font-size:15px;margin-bottom:26px}
+  .btn{display:inline-block;background:#fff;color:var(--mango-d);font-weight:700;font-size:17px;
+    padding:17px 46px;border-radius:40px;text-decoration:none;box-shadow:0 10px 26px rgba(150,90,10,.25)}
+  .foot{background:var(--green-d);color:#e8f0d6;text-align:center;padding:26px;font-size:13px;letter-spacing:.5px}
+  .foot .logo{font-weight:700;font-size:16px;color:#fff;letter-spacing:2px;margin-bottom:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- HERO -->
+  <header class="hero">
+    <span class="badge">여름 오감 체험 · 다회권 회원 선예약</span>
+    <div class="emoji">🥭</div>
+    <h1>꽁꽁꽁 망고빙수</h1>
+    <p class="lead">단단한 초록 망고가, 며칠을 기다리면<br><b>향긋한 노란 망고</b>가 됩니다.<br>아이가 '기다림의 맛'을 처음 배우는 여름.</p>
+  </header>
+
+  <!-- STORY -->
+  <section class="sec story">
+    <span class="kicker">後熟 · 기다릴수록 달콤해지는</span>
+    <h2>왜 이 망고는<br>이렇게 딱딱할까요?</h2>
+    <p>따뜻한 베트남에서 <b>망고 씨앗</b>이 비행기를 타고 왔어요. 아이들은 손전등으로 씨앗 속을 비춰보고, 망고나무 아래에서 단단한 <b>초록 망고</b>를 처음 만납니다.</p>
+    <div class="quote">"이 망고, 왜 이렇게 딱딱해요?"</div>
+    <p>멀리서 오는 동안 무르지 않도록 <b>일부러 단단할 때 딴 그린 망고.</b> 햇빛 대신 따뜻한 실내에서 며칠을 기다리면, 초록은 노랑이 되고 딱딱함은 달콤함이 됩니다. 아이들은 이 과정을 <b>온도에 따라 색이 변하는 '망고 카드'</b>로 직접 손바닥에 그려보며 놀이로 경험해요.</p>
+    <div class="heart">
+      <p>엄마 아빠도 그맘때, 무언가 익기를<br>기다려 본 여름이 있었죠.<br><b>기다림이 달콤함이 된다는 걸,<br>오늘 우리 아이가 배웁니다.</b></p>
+    </div>
+  </section>
+
+  <!-- ACTIVITY FLOW -->
+  <section class="sec acts">
+    <h3>🌿 흙방에서 펼쳐지는 일곱 장면</h3>
+    <div class="step"><div class="n">1</div><div class="t"><b>비행기에서 온 망고 씨앗</b><span>궁금이 상자 속 씨앗을 손전등으로 탐색</span></div></div>
+    <div class="step"><div class="n">2</div><div class="t"><b>망고나무와 그린 망고</b><span>잎·색·향·단단함을 손으로 관찰</span></div></div>
+    <div class="step"><div class="n">3</div><div class="t"><b>흙방에 떨어진 망고 찾기</b><span>숨은 그린 망고를 찾아 후숙 상자에</span></div></div>
+    <div class="step"><div class="n">4</div><div class="t"><b>망고 카드 온도 놀이</b><span>손바닥 자국 → 바람 → 색이 변하는 마법</span></div></div>
+    <div class="step"><div class="n">5</div><div class="t"><b>후숙 망고 발견</b><span>"맛있게 익어라!" 검은 천을 걷으면 노란 망고가 짠!</span></div></div>
+    <div class="step"><div class="n">6</div><div class="t"><b>두 망고 비교하기</b><span>초록과 노랑, 색·향·단단함의 차이</span></div></div>
+    <div class="step"><div class="n">7</div><div class="t"><b>커다란 흙 망고빙수</b><span>직접 고른 그릇에 흙을 쌓고 망고·민트 장식</span></div></div>
+  </section>
+
+  <!-- COOK -->
+  <section class="sec cook" style="text-align:center">
+    <span class="kicker">요리방 · 진짜 먹는 시간</span>
+    <h3 style="font-size:21px;font-weight:700;margin-bottom:6px">손끝으로 만들고, 입으로 맛보고</h3>
+    <div class="tags">
+      <div class="tag"><b>팥&amp;망고 페스츄리</b>직접 짜고 덮어 오븐에</div>
+      <div class="tag"><b>그린 망고 스틱</b>새콤한 첫 맛보기</div>
+      <div class="tag"><b>진짜 망고빙수</b>카다이프·코코넛젤리·민트</div>
+      <div class="tag"><b>세계 그림책</b>망고의 나라로 떠나는 북큐레이션</div>
+    </div>
+  </section>
+
+  <!-- ALLERGY -->
+  <div class="allergy">
+    <div class="h">⚠️ 알레르기 안내</div>
+    <p>망고는 옻나무과 과일입니다. 망고 알레르기 아동은 <b>팥 페스츄리로 대체</b>, 달걀 알레르기는 <b>우유 사용</b>, 필요 시 <b>쌀 비건 모닝빵</b>으로 대체 제공합니다. 참여 방식은 예약 후 보호자님과 사전 조율합니다.</p>
+  </div>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h3>기다림이 만든 달콤함</h3>
+    <p>다회권 회원 우선 선예약이 열렸습니다</p>
+    <a class="btn" href="#">예약하기 →</a>
+  </section>
+
+  <footer class="foot">
+    <div class="logo">THANKS TOTO</div>
+    부모의 좋은 추억이, 지금 아이의 추억이 됩니다
+  </footer>
+
+</div>
+</body>
+</html>
